@@ -11,3 +11,5 @@ services:
       VITE_DEV_SERVER_PUBLIC: 'localhost:3037'
       # Disable Elasticsearch for simpler setup
       ES_ENABLED: 'false'
+      # Set Spanish as default language
+      DEFAULT_LOCALE: 'es'
